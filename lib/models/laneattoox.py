@@ -7,8 +7,8 @@ import torch.nn as nn
 from torchvision.models import resnet18, resnet34
 
 from nms import nms
-from lane import Lane
-from focal_loss import FocalLoss
+from lib.lane import Lane
+from lib.focal_loss import FocalLoss
 
 from .resnet import resnet122 as resnet122_cifar
 from .matching import match_proposals_with_targets

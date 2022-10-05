@@ -39,10 +39,10 @@ class TuSimple(LaneDatasetLoader):
         if max_lanes is not None:
             self.max_lanes = max_lanes
 
-    def get_img_heigth(self, _):
+    def get_img_heigth(self):
         return 720
 
-    def get_img_width(self, _):
+    def get_img_width(self):
         return 1280
 
     def get_metrics(self, lanes, idx):

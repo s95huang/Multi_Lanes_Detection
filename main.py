@@ -16,7 +16,7 @@ def parse_args():
     parser.add_argument("--mode", choices=["train", "test"], default="train", help="Train or test?")
     parser.add_argument("--exp_name", default="laneatt_r34_culane", help="Experiment name")
     parser.add_argument("--cfg", default="cfgs/laneatt_culane_resnet34.yml", help="Config file")
-    parser.add_argument("--resume", default=True, action="store_true", help="Resume training")
+    parser.add_argument("--resume", default=False, action="store_true", help="Resume training")
     parser.add_argument("--epoch", type=int, help="Epoch to test the model on")
     parser.add_argument("--cpu", action="store_true", help="(Unsupported) Use CPU instead of GPU")
     parser.add_argument("--save_predictions", action="store_true", help="Save predictions to pickle file")

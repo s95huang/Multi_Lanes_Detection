@@ -1,0 +1,40 @@
+# files
+*.pcd
+*.las
+*.osm
+*.bag
+*.onnx
+*.weights
+*.zip
+*.pyc
+build.gradle
+.catkin_workspace
+.catkin_tools
+*.engine
+*.prototxt
+*.caffemodel
+*.pth
+# folders
+/map_files
+
+
+# IDE
+.vscode
+.idea
+.pyc
+
+# colcon
+build/
+devel/
+install/
+logs/
+log/
+**/build
+**/devel
+
+# RS lidar CMake file
+modules/driver/lidar/robosense/rslidar_sdk/src/rs_driver/cmake/rs_driverConfig.cmake
+
+# planning_simulator_launcher
+modules/simulator/planning_simulator_launcher/scenario_database_autoconf.json
+modules/simulator/planning_simulator_launcher/scripts/planning_simulator_launcher/scenario_loader.py

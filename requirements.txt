@@ -13,3 +13,4 @@ PyYAML==5.3.1
 scikit_learn==0.23.2
 tensorboard==2.3.0
 gdown==3.12.2
+protobuf==3.20
